@@ -24,7 +24,7 @@ To download the minimal source tree for the current branch, run:
 
 Enter the following commands to build the sources and Device Tree files:
 
-For Raspberry Pi 4 and 400, and Raspberry Pi Compute Module 4:
+For Raspberry Pi Compute Module 4:
 
 > cd linux
 > KERNEL=kernel7l
