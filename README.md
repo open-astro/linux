@@ -88,4 +88,6 @@ Next, install the kernel modules onto the SD card:
 
 > sudo umount mnt/ext4
 
-At this point you have copied over the new kernel which supports renesas\_usb and also the copied over the module needed for the renesas\_usb file and can now boot the RPi Compute Module 4 in the ASIAIR Plus.
+At this point you have copied over the new kernel which supports renesas_usb and also the copied over the module needed for the renesas_usb file. The last step is adding the following line into the config.txt in the boot partitoon and can then boot the RPi Compute Module 4 in the ASIAIR Plus.
+
+>otg_mode=1
