@@ -27,7 +27,9 @@ Enter the following commands to build the sources and Device Tree files:
 For Raspberry Pi Compute Module 4:
 
 > cd linux
+
 > KERNEL=kernel7l
+
 > make ARCH=arm CROSS\_COMPILE=arm-linux-gnueabihf- bcm2711\_defconfig
 
 *NOTE*
