@@ -37,7 +37,7 @@ To speed up compilation on multiprocessor systems, and get some improvement on s
 
 ### Install Directly onto the RPi Compute Module 4
 
-Having built the kernel, you need to copy it onto your Raspberry Pi Compute Module 4 and install the modules. First, plug in you Rasberry Pi Compute 4 into the Rasberry Pi Compute Module 4 I/O Boarard using the jumper and the Micro USB Cable and connect to the board uisng the following command
+Having built the kernel, you need to copy it onto your Raspberry Pi Compute Module 4 and install the modules. First, plug in you Rasberry Pi Compute 4 into the Rasberry Pi Compute Module 4 I/O Board using the jumper and the Micro USB Cable and connect to the board uisng the following command
 
 > sudo ./rpiboot
 
