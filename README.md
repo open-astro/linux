@@ -56,9 +56,13 @@ with sdb1 being the FAT filesystem (boot) partition, and sdb2 being the ext4 fil
 Mount these first, adjusting the partition letter as necessary:
 
 > mkdir mnt
+
 > mkdir mnt/fat32
+
 > mkdir mnt/ext4
+
 > sudo mount /dev/sdb1 mnt/fat32
+
 > sudo mount /dev/sdb2 mnt/ext4
 
 *NOTE*
