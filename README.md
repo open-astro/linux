@@ -73,12 +73,19 @@ Next, install the kernel modules onto the SD card:
 > sudo env PATH=$PATH make ARCH=arm CROSS\_COMPILE=arm-linux-gnueabihf- INSTALL\_MOD\_PATH=mnt/ext4 modules\_install
 
 > sudo cp mnt/fat32/$KERNEL.img mnt/fat32/$KERNEL-backup.img
+
 > sudo cp arch/arm/boot/zImage mnt/fat32/$KERNEL.img
+
 > sudo cp arch/arm/boot/dts/*.dtb mnt/fat32/*
+
 > *sudo cp arch/arm/boot/dts/overlays/*.dtb\* mnt/fat32/overlays/
+
 > sudo cp arch/arm/boot/dts/overlays/README mnt/fat32/overlays/
+
 > sudo cp renesas\_usb\_fw.mem mnt/ext4/lib/firmware/
+
 > sudo umount mnt/fat32
+
 > sudo umount mnt/ext4
 
 At this point you have copied over the new kernel which supports renesas\_usb and also the copied over the module needed for the renesas\_usb file and can now boot the RPi Compute Module 4 in the ASIAIR Plus.
