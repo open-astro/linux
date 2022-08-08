@@ -35,11 +35,9 @@ To speed up compilation on multiprocessor systems, and get some improvement on s
 
 > make ARCH=arm CROSS\_COMPILE=arm-linux-gnueabihf- zImage modules dtbs
 
-### Install Directly onto the SD Card
+### Install Directly onto the RPi Compute Module 4
 
-Having built the kernel, you need to copy it onto your Raspberry Pi and install the modules; this is best done directly using an SD card reader.
-
-First, plug in you Rasberry Pi Compute 4 into the Rasberry Pi Compute Module 4 IO Boarard using the jumper and the Micro USB Cable and connect to the board uisng the following command
+Having built the kernel, you need to copy it onto your Raspberry Pi Compute Module 4 and install the modules. First, plug in you Rasberry Pi Compute 4 into the Rasberry Pi Compute Module 4 I/O Boarard using the jumper and the Micro USB Cable and connect to the board uisng the following command
 
 > sudo ./rpiboot
 
