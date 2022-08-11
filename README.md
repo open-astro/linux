@@ -78,7 +78,7 @@ Next, install the kernel modules onto the SD card:
 
 > sudo cp arch/arm/boot/dts/*.dtb mnt/fat32/
 
-> *sudo cp arch/arm/boot/dts/overlays/\*.dtb\* mnt/fat32/overlays/
+> sudo cp arch/arm/boot/dts/overlays/\*.dtb\* mnt/fat32/overlays/
 
 > sudo cp arch/arm/boot/dts/overlays/README mnt/fat32/overlays/
 
