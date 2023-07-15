@@ -2,4 +2,4 @@
 
 Full instructions on building the kernel are located in the [WiKi](https://github.com/open-astro/linux/wiki).
 
-![wordpress-logo-aap](https://github.com/open-astro/linux/assets/1558465/39994c45-bbec-47e6-835c-de8561201f48)
+![logo-aap](https://github.com/open-astro/linux/assets/1558465/2f078231-ff8d-48ae-96e3-ba9e2c3844b1)
