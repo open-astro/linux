@@ -1,3 +1,3 @@
 # The ZWO ASIAIR Plus Raspberry Pi Linux Kernel
 
-Full instruction on building the kernel is located at [OpenAstro](https://www.openastro.net/the-zwo-asiair-plus-raspberry-pi-linux-kernel/).
+Full instructions on building the kernel are located in the [WiKi](https://github.com/open-astro/linux/wiki).
